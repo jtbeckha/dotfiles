@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 syntax on
 colorscheme badwolf
 
@@ -35,3 +37,9 @@ set foldnestmax=10
 set foldmethod=indent
 " Space to open/close folds
 nnoremap <space> za
+
+" Ctrl-e to edit last file
+nnoremap <C-e> :e #<CR>
+
+" NERDtree
+map <C-n> :NERDTreeToggle<CR>
