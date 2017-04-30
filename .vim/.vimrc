@@ -43,3 +43,6 @@ nnoremap <C-e> :e #<CR>
 
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
+
+" Allow jsx syntax highlighting in .js files
+let g:jsx_ext_required = 0
