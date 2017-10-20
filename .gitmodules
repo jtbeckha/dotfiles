@@ -1,15 +1,15 @@
 [submodule ".vim/colors/badwolf"]
 	path = .vim/colors/badwolf
-	url = https://github.com/sjl/badwolf.git
+	url = git@github.com:sjl/badwolf.git
 [submodule ".vim/colors/molokai"]
 	path = .vim/colors/molokai
-	url = https://github.com/tomasr/molokai.git
+	url = git@github.com:tomasr/molokai.git
 [submodule ".vim/colors/solarized"]
 	path = .vim/colors/solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
 [submodule "NERDtree"]
 	path = .vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree.git
+	url = git@github.com:scrooloose/nerdtree.git
 [submodule "CtrlP"]
 	path = .vim/bundle/ctrlp.vim
-	url = https://github.com/ctrlpvim/ctrlp.vim.git
+	url = git@github.com:kien/ctrlp.vim.git
