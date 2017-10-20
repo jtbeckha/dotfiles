@@ -44,5 +44,18 @@ nnoremap <C-e> :e #<CR>
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
 
-" Allow jsx syntax highlighting in .js files
-let g:jsx_ext_required = 0
+" ProseMode with Goyo.vim
+function! ProseMode()
+  call goyo#execute(0, [])
+  set spell noci nosi noai nolist noshowmode noshowcmd
+  set complete+=s
+  set bg=light
+  if !has('gui_running')
+    let g:solarized_termcolors=256
+  endif
+  colors solarized
+endfunction
+
+command! ProseMode call ProseMode()
+nmap \p :ProseMode<CR>
+
