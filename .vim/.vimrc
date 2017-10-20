@@ -1,7 +1,7 @@
 execute pathogen#infect()
 
 syntax on
-colorscheme badwolf
+colors badwolf
 
 " Leader shortcuts
 let mapleader=","
